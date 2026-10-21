@@ -1,0 +1,13 @@
+public class CompoundInterest {
+    public static void main(String[] args) {
+        double P = 5000.00;
+        double r = 0.04;
+        int n =10;
+
+        double A = P * Math.pow((1+r), n);
+        System.out.println("Principal P = $"+P);
+        System.out.println("Rate r = 4% per year");
+        System.out.println("Time n = "+n+" years");
+        System.out.println("Final Amount A = $"+A);
+    }
+}
